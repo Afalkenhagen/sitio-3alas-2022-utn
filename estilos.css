@@ -1,7 +1,15 @@
+:root{
+    --naranja: #F90;
+    --negro: #000;
+    --blanco: #fff;
+
+}
+
 body{
     /* Poner color de fondo para usuarios con mala conexión a internet o por si no carga la imagen */
     background-color: #272729ed;
     background-image: url(images/pattern.jpg);
+    font-family: Arial, Helvetica, sans-serif;
     /*
         Repetir en X, Y o no repetir
         background-repeat: repeat-y;
@@ -17,6 +25,18 @@ body{
     margin: auto;
 }
 
+.cabecera{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.cabecera h1{
+    color: var(--naranja);
+    font-size: 24px;
+}
+
 .contenedor{
-    background-color: white;
+    background-color: var(--blanco)
 }
