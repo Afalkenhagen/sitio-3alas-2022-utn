@@ -1,6 +1,14 @@
 body{
+    /* Poner color de fondo para usuarios con mala conexión a internet o por si no carga la imagen */
     background-color: #272729ed;
     background-image: url(images/pattern.jpg);
+    /*
+        Repetir en X, Y o no repetir
+        background-repeat: repeat-y;
+        
+        Imagen que cubra el 100% del fondo pero sin perder proporción
+        background-size: cover;
+    */
 }
 
 .cabecera,
