@@ -1,3 +1,14 @@
 body{
-    background-color: red;
+    background-color: #272729ed;
+    background-image: url(images/pattern.jpg);
+}
+
+.cabecera,
+.contenedor{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenedor{
+    background-color: white;
 }
