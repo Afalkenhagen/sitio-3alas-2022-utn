@@ -2,8 +2,17 @@
     --naranja: #F90;
     --negro: #000;
     --blanco: #fff;
-
+    --amarillo: rgb(229, 255, 0);
 }
+
+/*resetear algunos valores predeterminados del navegador*/
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
 
 body{
     /* Poner color de fondo para usuarios con mala conexión a internet o por si no carga la imagen */
@@ -38,11 +47,54 @@ body{
 }
 
 .contenedor{
-    background-color: var(--blanco)
+    background-color: var(--blanco);
     border-radius: 8px 8px 0 0;
 }
+
+/*
+    ---------------------------------------
+        navegacion
+    ---------------------------------------    
+*/
+
 
 .nav{
     background-color: var(--naranja);
     border-radius: 8px 8px 0 0;
+}
+
+.nav-lista {
+    /* background-color: pink; */
+    /*sacamos los puntitos*/
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* space around pone espacios entre ellos y afuera*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-lista-item {
+   /* background-color: blueviolet; */
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid var(--amarillo);
+}
+
+.nav-link {
+    /* background-color:blue; */
+    color:  var(--blanco);
+    font-weight: bold;
+    /* sacar el subrayado predeterminado*/
+    text-decoration: none;
+    /*agrandar el area clicleable*/
+    display: block;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+}
+
+.nav-form {
+    /* background-color: tomato; */
 }
