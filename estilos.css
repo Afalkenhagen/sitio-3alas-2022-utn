@@ -7,6 +7,7 @@
     --negro: #000;
     --negro2: #27262b;
     --blanco: #FFFFFF;
+    --espacio: 40px;
 }
 
 /* Resetear algunos valores predeterminados del navegador */
@@ -67,6 +68,7 @@ body {
 .nav {
     background-color: var(--naranja);
     border-radius: 8px 8px 0 0;
+    margin-bottom: var(--espacio)
 }
 
 .nav-lista {
@@ -100,3 +102,40 @@ body {
     background-color: tomato;
 } */
 
+/*
+    -------------------------------------
+                  slider de imagen
+    -------------------------------------
+*/
+
+.imagen{
+    text-align: center;
+    margin-bottom: var(--espacio)
+}
+
+/*
+    -------------------------------------
+                  principal
+    -------------------------------------
+*/
+.principal{
+    background-color: blue;
+}
+
+/*
+    -------------------------------------
+                  categorias
+    -------------------------------------
+*/
+.categorias{
+    background-color: darkgreen;
+}
+
+/*
+    -------------------------------------
+                  productos
+    -------------------------------------
+*/
+.categorias{
+    background-color: blueviolet;
+}
